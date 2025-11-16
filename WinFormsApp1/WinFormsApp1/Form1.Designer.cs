@@ -46,8 +46,6 @@
             btnXoa = new Button();
             btnTimKiem = new Button();
             dtgvHang = new DataGridView();
-            button1 = new Button();
-            comboBox1 = new ComboBox();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dtgvHang).BeginInit();
             SuspendLayout();
@@ -216,31 +214,11 @@
             dtgvHang.TabIndex = 16;
             dtgvHang.CellClick += dtgvHang_CellClick;
             // 
-            // button1
-            // 
-            button1.Location = new Point(693, 206);
-            button1.Name = "button1";
-            button1.Size = new Size(275, 29);
-            button1.TabIndex = 17;
-            button1.Text = "Trang trí cho đỡ trống";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(814, 277);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(151, 28);
-            comboBox1.TabIndex = 18;
-            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1087, 763);
-            Controls.Add(comboBox1);
-            Controls.Add(button1);
             Controls.Add(dtgvHang);
             Controls.Add(btnTimKiem);
             Controls.Add(btnXoa);
@@ -287,7 +265,5 @@
         private Button btnXoa;
         private Button btnTimKiem;
         private DataGridView dtgvHang;
-        private Button button1;
-        private ComboBox comboBox1;
     }
 }
