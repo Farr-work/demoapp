@@ -1,0 +1,7 @@
+# Thu muc sinh ra trong qua trinh build
+[Bb]in/
+[Oo]bj/
+
+# Cac file cau hinh va tam thoi cua IDE
+.vs/
+*.suo
