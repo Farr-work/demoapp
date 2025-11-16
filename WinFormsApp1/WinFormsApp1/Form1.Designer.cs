@@ -217,11 +217,11 @@
             // 
             // button1
             // 
-            button1.Location = new Point(802, 216);
+            button1.Location = new Point(693, 206);
             button1.Name = "button1";
-            button1.Size = new Size(94, 29);
+            button1.Size = new Size(275, 29);
             button1.TabIndex = 17;
-            button1.Text = "button1";
+            button1.Text = "Trang trí cho đỡ trống";
             button1.UseVisualStyleBackColor = true;
             // 
             // Form1
