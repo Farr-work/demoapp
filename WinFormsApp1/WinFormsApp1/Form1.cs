@@ -197,12 +197,17 @@ namespace WinFormsApp1
                     conn.Close();
                 }
                 //Form1_Load(sender, e);
-                
+
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OKCancel);
             }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
