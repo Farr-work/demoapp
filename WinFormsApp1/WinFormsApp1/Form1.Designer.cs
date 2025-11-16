@@ -46,6 +46,7 @@
             btnXoa = new Button();
             btnTimKiem = new Button();
             dtgvHang = new DataGridView();
+            button1 = new Button();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dtgvHang).BeginInit();
             SuspendLayout();
@@ -214,11 +215,21 @@
             dtgvHang.TabIndex = 16;
             dtgvHang.CellClick += dtgvHang_CellClick;
             // 
+            // button1
+            // 
+            button1.Location = new Point(802, 216);
+            button1.Name = "button1";
+            button1.Size = new Size(94, 29);
+            button1.TabIndex = 17;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1087, 763);
+            Controls.Add(button1);
             Controls.Add(dtgvHang);
             Controls.Add(btnTimKiem);
             Controls.Add(btnXoa);
@@ -265,5 +276,6 @@
         private Button btnXoa;
         private Button btnTimKiem;
         private DataGridView dtgvHang;
+        private Button button1;
     }
 }
